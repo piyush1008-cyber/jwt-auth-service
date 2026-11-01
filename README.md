@@ -1,12 +1,13 @@
 # 🔐 Production JWT Authentication & Role-Based Access Control (RBAC) API
 
-![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-RFC%207519-black?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
-![Security](https://img.shields.io/badge/Security-bcrypt%20Salted-red?style=for-the-badge)
-![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Pytest](https://img.shields.io/badge/Tests-7%20Passing-brightgreen?style=for-the-badge&logo=pytest&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+[![CI](https://github.com/piyush1008-cyber/jwt-auth-service/actions/workflows/ci.yml/badge.svg)](https://github.com/piyush1008-cyber/jwt-auth-service/actions)
+![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688?style=flat&logo=fastapi&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-RFC%207519-black?style=flat&logo=jsonwebtokens&logoColor=white)
+![Security](https://img.shields.io/badge/Security-bcrypt%20Salted-red?style=flat)
+![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=flat&logo=docker&logoColor=white)
+![Pytest](https://img.shields.io/badge/Tests-7%20Passing-brightgreen?style=flat&logo=pytest&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat)
 
 > **An enterprise-grade, stateless authentication microservice implementing OAuth2 password flow, cryptographic JWT signatures, refresh token rotation with replay prevention, and granular Role-Based Access Control (RBAC).**
 
