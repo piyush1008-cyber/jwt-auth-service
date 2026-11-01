@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  auth-api:
+    build: .
+    container_name: jwt_auth_service
+    ports:
+      - "8000:8000"
+    environment:
+      - PROJECT_NAME=JWT Authentication & RBAC Service
+      - DATABASE_URL=sqlite:///./auth.db
+      - ACCESS_TOKEN_EXPIRE_MINUTES=30
+      - REFRESH_TOKEN_EXPIRE_DAYS=7
+    volumes:
+      - ./auth.db:/app/auth.db
+    restart: unless-stopped
